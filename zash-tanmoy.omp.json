@@ -31,6 +31,7 @@
     },
     {
       "alignment": "right",
+      "overflow": "hide",
       "segments": [
         {
           "foreground": "#01F0FF",
@@ -51,7 +52,7 @@
           "foreground": "#F822F8",
           "style": "plain",
           "template": " \uf119",
-          "type": "exit"
+          "type": "text"
         }
       ],
       "type": "prompt"
