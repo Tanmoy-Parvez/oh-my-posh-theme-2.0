@@ -31,8 +31,6 @@
     },
     {
       "alignment": "right",
-      "overflow": "hide",
-
       "segments": [
         {
           "foreground": "#01F0FF",
@@ -41,22 +39,22 @@
           "type": "text"
         },
         {
-          "foreground": "#01F0FF",
+          "foreground": "#F822F8",
+          "properties": {
+            "branch_icon": " \udb81\ude2c "
+          },
           "style": "plain",
-          "template": " git ",
-          "type": "text"
+          "template": " <#01F0FF>git</>{{ .HEAD }}<#01F0FF></>",
+          "type": "git"
         },
         {
           "foreground": "#F822F8",
-          "properties": {
-            "branch_icon": "\udb81\ude2c "
-          },
           "style": "plain",
-          "template": "{{ .HEAD }}  ",
-          "type": "git"
+          "template": " \uf119",
+          "type": "exit"
         }
       ],
-      "type": "rprompt"
+      "type": "prompt"
     },
     {
       "alignment": "left",
@@ -72,7 +70,7 @@
           "foreground": "#01F0FF",
           "style": "plain",
           "template": " \uf119",
-          "type": "text"
+          "type": "exit"
         }
       ],
       "type": "prompt"
