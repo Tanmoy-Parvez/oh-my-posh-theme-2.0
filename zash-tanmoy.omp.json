@@ -80,7 +80,7 @@
           "properties": {
             "cache_duration": "none"
           },
-          "template": " \udb85\udfa9 <#FF8000> ⚡️ Add, Commit, Push, Repeat...!</>",
+          "template": " \udb85\udfa9",
           "foreground": "#01F0FF",
           "type": "text",
           "style": "plain"
