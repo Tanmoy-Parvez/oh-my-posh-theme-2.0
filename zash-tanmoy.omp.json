@@ -58,12 +58,12 @@
     },
     {
       "alignment": "left",
-      "newline": false,
+      "newline": true,
       "segments": [
         {
           "foreground": "#01F0FF",
           "style": "plain",
-          "template": " \udb85\udfa9",
+          "template": "\udb85\udfa9",
           "type": "text"
         }
       ],
