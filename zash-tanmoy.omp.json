@@ -3,7 +3,6 @@
   "blocks": [
     {
       "alignment": "left",
-      "newline": false,
       "segments": [
         {
           "foreground": "#01F0FF",
@@ -59,7 +58,7 @@
     },
     {
       "alignment": "left",
-      "newline": true,
+      "newline": false,
       "segments": [
         {
           "foreground": "#01F0FF",
@@ -71,6 +70,6 @@
       "type": "prompt"
     }
   ],
-  "final_space": true,
+  "final_space": false,
   "version": 2
 }
