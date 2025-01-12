@@ -41,16 +41,16 @@
         {
           "foreground": "#F822F8",
           "properties": {
-            "branch_icon": "\udb81\ude2c"
+            "branch_icon": " \udb81\ude2c "
           },
           "style": "plain",
-          "template": "<#01F0FF>git</>{{ .HEAD }}<#01F0FF></>",
+          "template": " <#01F0FF>git</>{{ .HEAD }}<#01F0FF></>",
           "type": "git"
         },
         {
           "foreground": "#F822F8",
           "style": "plain",
-          "template": " \uf119",
+          "template": " \uf119 ",
           "type": "exit"
         }
       ],
