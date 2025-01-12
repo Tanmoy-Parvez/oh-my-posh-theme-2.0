@@ -2,74 +2,101 @@
   "$schema": "https://raw.githubusercontent.com/JanDeDobbeleer/oh-my-posh/main/themes/schema.json",
   "blocks": [
     {
+      "type": "prompt",
       "alignment": "left",
       "segments": [
         {
-          "foreground": "#01F0FF",
-          "style": "plain",
-          "template": " {{ .UserName }} ",
-          "type": "session"
-        },
-        {
-          "foreground": "#F822F8",
-          "style": "plain",
-          "template": "\uea83",
-          "type": "text"
-        },
-        {
-          "foreground": "#F822F8",
           "properties": {
-            "style": "folder",
-            "folder_icon": ".."
+            "cache_duration": "none"
           },
-          "style": "plain",
+          "template": "\uea85 {{ .UserName }} ",
+          "foreground": "#01F0FF",
+          "type": "session",
+          "style": "plain"
+        },
+        {
+          "properties": {
+            "cache_duration": "none"
+          },
+          "template": "\uea83",
+          "foreground": "#F822F8",
+          "type": "text",
+          "style": "plain"
+        },
+        {
+          "properties": {
+            "cache_duration": "none",
+            "folder_icon": "..",
+            "style": "folder"
+          },
           "template": " {{ .Path }}",
-          "type": "path"
+          "foreground": "#F822F8",
+          "type": "path",
+          "style": "plain"
         }
-      ],
-      "type": "prompt"
+      ]
     },
     {
+      "type": "prompt",
       "alignment": "right",
+      "overflow": "hide",
       "segments": [
         {
-          "foreground": "#01F0FF",
-          "style": "plain",
-          "template": "\ueb00",
-          "type": "text"
-        },
-        {
-          "foreground": "#F822F8",
           "properties": {
-            "branch_icon": " \udb81\ude2c "
+            "cache_duration": "none"
           },
-          "style": "plain",
-          "template": " <#01F0FF>git</>{{ .HEAD }}<#01F0FF></>",
-          "type": "git"
+          "template": " \ueb00",
+          "foreground": "#01F0FF",
+          "type": "text",
+          "style": "plain"
         },
         {
+          "properties": {
+            "cache_duration": "none"
+          },
+          "template": " git ",
+          "foreground": "#01F0FF",
+          "type": "text",
+          "style": "plain"
+        },
+        {
+          "properties": {
+            "branch_icon": "\udb81\ude2c ",
+            "cache_duration": "none"
+          },
+          "template": "{{ .HEAD }}  ",
           "foreground": "#F822F8",
-          "style": "plain",
-          "template": " \uf119",
-          "type": "exit"
+          "type": "git",
+          "style": "plain"
         }
-      ],
-      "type": "prompt"
+      ]
     },
     {
+      "type": "prompt",
       "alignment": "left",
       "newline": true,
       "segments": [
         {
+          "properties": {
+            "cache_duration": "none"
+          },
+          "template": " \udb85\udfa9",
           "foreground": "#01F0FF",
-          "style": "plain",
-          "template": "\udb85\udfa9",
-          "type": "text"
+          "type": "text",
+          "style": "plain"
+        },
+        {
+          "properties": {
+            "cache_duration": "none"
+          },
+          "template": " \uf119",
+          "foreground": "#01F0FF",
+          "type": "exit",
+          "style": "plain"
         }
-      ],
-      "type": "prompt"
+      ]
     }
   ],
-  "final_space": false,
-  "version": 2
+  "version": 3,
+  "final_space": true
 }
