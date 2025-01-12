@@ -23,7 +23,7 @@
             "folder_icon": ".."
           },
           "style": "plain",
-          "template": "{{ .Path }}",
+          "template": " {{ .Path }}",
           "type": "path"
         }
       ],
