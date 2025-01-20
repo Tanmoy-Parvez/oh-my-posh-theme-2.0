@@ -29,7 +29,7 @@
             "folder_icon": "..",
             "style": "folder"
           },
-          "template": " {{ .Path }}",
+          "template": " {{ .Path }} ",
           "foreground": "#F822F8",
           "type": "path",
           "style": "plain"
@@ -37,7 +37,7 @@
       ]
     },
     {
-      "type": "prompt",
+      "type": "rprompt",
       "alignment": "right",
       "overflow": "hide",
       "segments": [
@@ -74,12 +74,13 @@
     {
       "type": "prompt",
       "alignment": "left",
+      "newline": true,
       "segments": [
         {
           "properties": {
             "cache_duration": "none"
           },
-          "template": " \udb85\udfa9 <#FF8000>⚡Add, Commit, Push. Repeat...!</> ",
+          "template": "\udb85\udfa9",
           "foreground": "#01F0FF",
           "type": "text",
           "style": "plain"
